@@ -3,8 +3,11 @@
 }
 
 .App-logo {
+  display: flex;
   height: 40vmin;
   pointer-events: none;
+  border-radius: 50%;
+  flex-direction: row;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,7 +17,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: green;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
